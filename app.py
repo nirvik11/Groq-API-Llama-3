@@ -5,7 +5,7 @@ from langchain_experimental.agents.agent_toolkits import create_csv_agent
 
 st.title("Financial Data Query Application")
 
-csv_file_path = "final_csv.csv"
+csv_file_path = "final_data.csv"
 
 st.write("### Query the CSV File:")
 query = st.text_input("Enter your query")
